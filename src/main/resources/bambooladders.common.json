@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "uk.gaz492.bambooladders.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinLivingEntity",
+    "MixinLadderBlock",
+    "MixinBlock"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

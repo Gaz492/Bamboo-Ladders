@@ -1,0 +1,17 @@
+{
+  "id": "bambooladders",
+  "name": "Bamboo Ladders",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "version": "1.0.0",
+  "side": "universal",
+  "initializers": [
+    "uk.gaz492.bambooladders.BambooLadders"
+  ],
+  "requires": {
+    "fabric": "*"
+  },
+  "mixins": {
+    "client": "bambooladders.client.json",
+    "common": "bambooladders.common.json"
+  }
+}
