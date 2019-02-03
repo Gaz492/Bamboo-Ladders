@@ -4,8 +4,7 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "MixinLivingEntity",
-    "MixinLadderBlock",
-    "MixinBlock"
+    "MixinLadderBlock"
   ],
   "injectors": {
     "defaultRequire": 1
