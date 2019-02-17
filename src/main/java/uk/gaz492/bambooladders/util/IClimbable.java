@@ -6,9 +6,7 @@ import net.minecraft.util.math.BlockPos;
 
 public interface IClimbable {
 
-    boolean canClimb(LivingEntity entity, BlockState state, BlockPos pos);
-
-    default String getFallDeathSuffix(){
-        return "generic";
+    default boolean canClimb(LivingEntity entity, BlockState state, BlockPos pos){
+        return true;
     }
 }
