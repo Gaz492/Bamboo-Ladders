@@ -8,10 +8,7 @@
     "uk.gaz492.bambooladders.BambooLadders"
   ],
   "requires": {
-    "fabric": "*"
-  },
-  "mixins": {
-    "client": "bambooladders.client.json",
-    "common": "bambooladders.common.json"
+    "fabric": "*",
+    "ladderapi": "1.14-snapshot-1.0.0"
   }
 }
