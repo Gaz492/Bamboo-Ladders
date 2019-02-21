@@ -20,6 +20,6 @@ public class BLItems {
     }
 
     private Item register (String id, Block block, Settings settings){
-        return Registry.ITEM.register(new Identifier(ModInfo.ID, id), new BlockItem(block, settings));
+        return Registry.ITEM.add(new Identifier(ModInfo.ID, id), new BlockItem(block, settings));
     }
 }

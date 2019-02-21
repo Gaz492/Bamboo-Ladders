@@ -18,6 +18,6 @@ public class BLBlocks {
     }
 
     private Block register(String id, Block block) {
-        return Registry.BLOCK.register(new Identifier(ModInfo.ID, id), block);
+        return Registry.BLOCK.add(new Identifier(ModInfo.ID, id), block);
     }
 }
