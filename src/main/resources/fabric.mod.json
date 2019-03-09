@@ -9,6 +9,6 @@
   ],
   "requires": {
     "fabric": "*",
-    "ladderapi": "1.14-snapshot-1.0.0"
+    "ladderapi": "1.14-snapshot-1.2.0"
   }
 }
